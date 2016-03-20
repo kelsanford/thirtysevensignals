@@ -1,0 +1,339 @@
+
+* {
+	margin: 0;
+	padding-left: 0;
+}
+
+hr {
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	height: 12px;
+}
+
+body {
+	font-family: Crimson text, sans-serif; 
+}
+
+header, section {margin: 1% auto;
+	width: 67%;
+	display: block;
+}
+
+
+nav { min-width: 100%;
+	height: 48px;
+	font-family: sans-serif;
+
+}
+
+nav ul {
+	float: right;
+	margin: 12px 18px;
+	padding: 10px 30px;
+}
+
+nav li {
+font-size: 12px;
+font-color: #369;
+display: inline-block;
+padding: 5px;
+margin: 0 5px;
+}
+
+nav a:hover {
+	color: #18AFE0;
+}
+
+a { text-decoration: none;
+	color: #369;
+
+}
+
+header {	
+	clear: right;
+	text-align: center;
+}
+
+header img {
+	align-content: center;
+	padding: 10px 0 10px 0;
+}
+
+header h1 {
+	font-size: 58px;
+	color: #232323;
+	line-height: 58px; 
+	width: 900px;
+	margin: 10px;
+}
+
+ h5 {
+font-size: 20 px; 
+color: #222;
+line-height: 30px;
+margin: 10px 0;
+font-weight: 500;
+}
+
+.products {
+	text-align: center;
+	height: 275px;
+}
+
+.products a
+	{ 
+		width: 22%;
+		margin: 5px 20px;
+		float: left;
+		border: 1px solid #E8E8E8;
+		border-radius: 5px; 
+		box-shadow: 0 0 5px #E8E8E8;
+		padding: 20px 10px 10px;
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+
+}
+
+.products a:first-child {
+	margin-left: 10%;
+}
+
+.products h2 {
+	font-size: ;
+	color: ;
+	padding: ;
+	text-decoration: underline;
+
+}
+
+.products h3 {
+	font-size: 21px;
+	color: #369;
+	font-weight: bold;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+.products h3 span { 
+	text-decoration: underline;
+}
+
+
+.products h4 {
+	color: #C00;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.products p {
+	color: #222;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 5px 0;
+
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+
+.customers {
+margin-bottom: 50px;
+position: relative;
+}
+
+
+.customers h2 {
+	color:#232323;
+	text-align: center;
+	font-size: 48px; 
+	line-height: 48px;
+	letter-spacing: -1px;
+	
+}
+
+.arrow left {
+	float: left;
+	width: 69px;
+	height: 36px;
+	position: relative;
+	top: -35px;
+}
+
+.globe {
+	float: right;
+}
+
+.customers p {
+	color: #666;
+	font-size: 22px;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+
+}
+
+.meet {
+	position: absolute;
+	left: -140px;
+	top: 70px;
+}
+
+.meet a {
+    display: block;
+    width: 143px;
+    height: 104px;
+    background: url('../img/img-customers.png') no-repeat 0 0;
+    text-indent: -1000px;
+}
+
+.meet p {
+	color: #369;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+.meet p:hover {
+	color: #69C;
+	text-decoration: underline;
+}
+
+.manifesto {
+	margin-bottom: 50px;
+	overflow: hidden;
+	text-align: center; 
+}
+
+.manifesto h2 {
+	font-size: 48px;
+	color: #232323;
+	line-height: 48px;
+	letter-spacing: -1px;
+	margin: 30px 0;
+}
+
+.column,
+.column-end {
+	color: #222;
+	width: 43%; 
+	margin: 0 3%;
+	float: left;
+	color: #222;
+	font-size: 18px;
+	line-height: 27px;
+
+}
+
+.manifesto h3 {
+	color: #CCC;
+	font-size: 58px;
+	float: left;
+	margin: -10px 15px 0 0;
+}
+
+.manifesto h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #C00;
+	margin: 5px 0;
+	text-align: left;
+}
+
+.manifesto p {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.rework {
+	height: 500px;
+	position: relative;
+}
+
+.rework h2 {
+	font-size: 48px;
+	color: #232323;
+	line-height: 48px;
+	letter-spacing: -1px;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.book img {
+	float: left;
+
+}
+
+
+.paper img {
+	position: absolute;
+	top: 50px;
+	margin:-125px;
+}
+
+.paper p {
+	font-size: 12px;
+	text-align: center;
+
+}
+
+.paper p:hover {
+	text-decoration: underline;
+	color: #69C;
+}
+
+.quote {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.quote h3 {
+	font-size: 22px;
+	font-style: italic;
+	font-family: "CrimsonRomanItalic", serif; 
+	margin-top: 35px;
+	margin-bottom: 10px;
+	color: #888;
+}
+
+.quote p {
+	font-size: 12px ;
+	font-family: Roboto, sans-serif;
+}
+
+.arrow {
+	width: 69px;
+	position: absolute;
+	top: 140px;
+	right: 5px;
+}
+
+.offerings h2 {
+	text-align: center;
+	font-size: 48px;
+}
+
+.offerings .column h3, .offerings .column-end h3 {
+	border-bottom: 1 px solid #E8E8E8;
+}
+
+.offerings .column h3, .offerings .column-end h3 {
+	color: #C00;
+
+}
+
+.offerings .column a, .offerings .column-end a {
+	font-size: 22px;
+	font-weight: bold;
+	color: #222;
+
+}
+
+.column, .column-end small {
+	color: ;
+
+}
